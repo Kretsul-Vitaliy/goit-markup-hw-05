@@ -38,7 +38,7 @@
        <!-- HERO секция3 -->
         <section class="hero">
         <h1 class="section-3-text-color">Эффективные решения для вашего бизнеса</h1>
-                <button type="button" class="section-hero-button primary">Заказать услугу</button>
+                <button type="button" class="section-hero-button primary" data-modal-open>Заказать услугу</button>
         </section>
         <!-- Список задач секция4 -->
         <section class="features"> <div class="container">
@@ -346,6 +346,15 @@
         </div>
     </div>
     </footer>
+    <div class="backdrop is-hidden" data-modal>
+        <div class="modal-window">
+        <button type="button" class="close-btn" data-modal-close>
+            <svg class="icon-modal-close-btn" width="18px" height="18px">
+                <use href="./images/sprite.svg#icon-close-black-backdrop"></use>
+            </svg>
+        </button>
+        </div>
+    </div>
     <script src="./js/modal.js"></script>
 </body>
 </html>
