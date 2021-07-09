@@ -216,7 +216,7 @@ ul {
   /* При наведении курсора делает не прозрачным кнопку */
   background-color: rgba(33, 150, 243, 1);
   /* Добавляем анимацию */
-  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .section-hero-button.primary {
