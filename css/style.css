@@ -214,15 +214,14 @@ ul {
 .section-hero-button.primary:hover,
 .section-hero-button.primary:focus {
   /* При наведении курсора делает не прозрачным кнопку */
-  opacity: 1;
+  background-color: rgba(33, 150, 243, 1);
   /* Добавляем анимацию */
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .section-hero-button.primary {
   color: var(--primary-white-color);
-  background-color: var(--accent-color);
-  opacity: 0.9;
+  background-color: rgba(33, 150, 243, 0.9);
 }
 
 /* Изменяет шрифт Эффективные решения для вашего бизнеса */
